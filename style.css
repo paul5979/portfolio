@@ -22,7 +22,7 @@ img {
 #splash {
     width: 100vw;
     height: 100vh;
-    background-image: url(billeder/splashbillede.svg);
+    background-image: url(billeder/newyork.png);
     background-size: cover;
     background-position: center;
     max-width: none;
@@ -38,6 +38,7 @@ section {
     /*sætter det i midten*/
 }
 
+/* ****fælles designregler for alle sektioner SLUT**** */
 
 
 
