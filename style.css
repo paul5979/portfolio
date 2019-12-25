@@ -27,3 +27,33 @@ img {
     background-position: center;
     max-width: none;
 }
+
+
+/* fælles designregler for alle sektioner */
+
+section {
+    padding: 1rem;
+    max-width: 1200px;
+    margin: 0 auto;
+    /*sætter det i midten*/
+}
+
+
+
+
+
+
+
+/*****media quries - skal opstilles efter mindst --> størst*****/
+
+
+
+/* ***splash billede web**** */
+@media (orientation:portrait) and (min-width: 300px) {
+
+    #splash {
+        width: 100vw;
+        height: 56.25vw;
+    }
+
+}
