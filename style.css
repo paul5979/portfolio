@@ -55,6 +55,24 @@ h1 {
 /*********Fonts style SLUT********/
 
 
+/*******Burger menu *************/
+
+.hidden {
+    display: none;
+    transform: scale(0);
+    transform: translateX(-100%);
+    opacity: 0;
+}
+
+#menuknap {
+    display: inline-block;
+}
+
+#menu {
+    list-style-type: none;
+    transition: transform .3s;
+    transform-origin: top left;
+}
 
 
 
@@ -65,13 +83,42 @@ h1 {
 
 
 
-
+/*******Burger menu SLUT*************/
 
 /*****media quries - skal opstilles efter mindst --> størst*****/
 
 
 
 /* ***splash billede web**** */
+
+@media only screen and (min-width: 600px);
+
+    {
+
+    #menuknap {
+        display: none;
+
+    }
+
+    #menuhidden {
+        transform: translateX(0);
+        opacity: 1;
+    }
+
+    #menu li {
+        display: inline-block;
+    }
+
+}
+
+
+
+
+
+
+
+
+
 @media (orientation:portrait) and (min-width: 300px) {
 
     #splash {
