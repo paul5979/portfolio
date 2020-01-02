@@ -258,6 +258,7 @@ header nav a {
     color: #DADADA;
     text-transform: inherit;
     line-height: 1.7;
+    padding-right: 2.5rem;
 
 }
 
@@ -279,49 +280,82 @@ header nav a {
 /******************Om mig  SLUT***************/
 
 
-/******************Web START******************/
 
+
+
+
+/******************Web START******************/
 #web .sectionwrapper {
     display: flex;
     flex-wrap: wrap;
 
+    padding: 1rem;
+    margin: 1rem;
+    background-color: #DADADA;
 }
 
-.col {
+#web .txt {
+    padding-left: 2.5vw;
+}
+
+#web .col_wide {
+    display: flex;
+    flex-direction: column;
+
     flex-grow: 1;
-    flex-basis: 500px;
+    flex-basis: 600px;
+    padding: 1rem;
+}
+
+#web .top {
+    display: flex;
+    flex-wrap: wrap-reverse;
+    flex-direction: row-reverse;
+    padding: 1rem;
+}
+
+#web .top .txt {
+    flex-grow: 1;
+    flex-basis: 200px;
+}
+
+#web .top .image {
+    flex-grow: 1;
+    flex-basis: 300px;
+
+}
+
+#web .bottom {
+    display: flex;
+    flex-wrap: wrap-reverse;
+    flex-direction: row;
+
 }
 
 
-#web .col img {
-    margin-top: 2vw;
-    border: #DADADA;
+#web .bottom .txt {
+    flex-grow: 1;
+    flex-basis: 200px;
 }
 
-#web h1 {
-    font-family: 'Josefin Sans', sans-serif;
-    font-size: 3.5rem;
-    color: #DADADA;
-    text-transform: uppercase;
-}
+#web .bottom .image {
+    flex-grow: 1;
+    flex-basis: 300px;
 
-#web .col h2 {
-    font-family: 'Josefin Sans', sans-serif;
-    font-size: 1.5rem;
-    color: #DADADA;
-    text-transform: uppercase;
-    padding-left: 5vw;
-}
-
-#web .col p {
-    font-family: 'Libre Baskerville', serif;
-    font-size: 1rem;
-    color: #DADADA;
-    text-transform: inherit;
-    line-height: 1.7;
-    padding-left: 5vw;
+    width: 50vw;
+    height: 50vh;
 
 }
+
+
+
+
+/******************Web SLUT******************/
+
+
+
+
+
 
 /*********************Footer start***************/
 
