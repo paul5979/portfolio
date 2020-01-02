@@ -364,7 +364,6 @@ header nav a {
 
 /******************UX START******************/
 
-
 .sectionwrapper {
     display: flex;
     flex-wrap: wrap;
@@ -378,6 +377,81 @@ header nav a {
 .col {
     flex-grow: 1;
     flex-basis: 500px;
+}
+
+#prototype .col img {
+    margin-top: 2vw;
+    height: 54vw;
+    width: 25vw;
+    margin-left: 12vw;
+}
+
+#gruppe_projekt .col img {
+    margin-top: 2vw;
+    height: 54vw;
+    width: 25vw;
+    margin-left: 12vw;
+}
+
+#ux .col p {
+    font-family: 'Libre Baskerville', serif;
+    font-size: 1rem;
+    color: #DADADA;
+    text-transform: inherit;
+    line-height: 1.7;
+    padding-right: 2.5rem;
+
+}
+
+
+#ux h1 {
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 3.5rem;
+    color: black;
+    text-transform: uppercase;
+}
+
+#ux .col h2 {
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 1.5rem;
+    color: #DADADA;
+    text-transform: uppercase;
+}
+
+#prototype .col h2 {
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 1.5rem;
+    color: #DADADA;
+    text-transform: uppercase;
+}
+
+
+#gruppe_projekt .col h2 {
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 1.5rem;
+    color: #DADADA;
+    text-transform: uppercase;
+}
+
+
+#prototype .col p {
+    font-family: 'Libre Baskerville', serif;
+    font-size: 1rem;
+    color: #DADADA;
+    text-transform: inherit;
+    line-height: 1.7;
+    padding-right: 2.5rem;
+
+}
+
+#gruppe_projekt .col p {
+    font-family: 'Libre Baskerville', serif;
+    font-size: 1rem;
+    color: #DADADA;
+    text-transform: inherit;
+    line-height: 1.7;
+    padding-right: 2.5rem;
+
 }
 
 
