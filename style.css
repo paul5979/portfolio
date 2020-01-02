@@ -69,6 +69,7 @@ p {
     line-height: 1.7;
 }
 
+
 /*********Fonts style SLUT********/
 
 
@@ -247,6 +248,31 @@ header nav a {
 
 
 /******************Om mig  SLUT***************/
+
+
+/*********************Footer start***************/
+
+footer {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0;
+    background-color: #BEBEBE;
+}
+
+footer p {
+    color: #404040;
+    text-align: center;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 1rem;
+    color: black;
+    text-transform: uppercase;
+    text-decoration: none;
+    margin-left: 10vw;
+}
+
+
+
+/************Footer SLUT**********/
 
 
 /*****media quries - skal opstilles efter mindst --> størst*****/
