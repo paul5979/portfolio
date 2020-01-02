@@ -6,7 +6,6 @@
 
 body {
     margin: 0;
-    background-color: #404040;
 }
 
 
@@ -59,6 +58,14 @@ h1 {
 h2 {
     font-family: 'Josefin Sans', sans-serif;
     font-size: 1.5rem;
+    color: black;
+    text-transform: uppercase;
+}
+
+
+h3 {
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 1.3rem;
     color: black;
     text-transform: uppercase;
 }
@@ -242,6 +249,10 @@ header nav a {
 
 }
 
+#ommig .body {
+    margin: 0;
+    background-color: #404040;
+}
 
 .col {
     flex-grow: 1;
@@ -351,6 +362,24 @@ header nav a {
 
 
 /******************Web SLUT******************/
+
+
+
+
+
+/******************UX START******************/
+
+
+
+
+
+
+
+
+
+
+/******************UX SLUT******************/
+
 
 
 
