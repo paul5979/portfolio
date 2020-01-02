@@ -233,6 +233,7 @@ header nav a {
 #ommig .sectionwrapper {
     display: flex;
     flex-wrap: wrap;
+    background-color: #404040;
 
     padding: 0 0.8rem 0.8rem;
     margin: 0.8rem;
@@ -245,7 +246,25 @@ header nav a {
     flex-basis: 500px;
 }
 
+#ommig .col img {
+    margin-top: 2vw;
+}
 
+#ommig .col p {
+    font-family: 'Libre Baskerville', serif;
+    font-size: 1rem;
+    color: #DADADA;
+    text-transform: inherit;
+    line-height: 1.7;
+}
+
+
+#ommig .col h2 {
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 1.5rem;
+    color: #DADADA;
+    text-transform: uppercase;
+}
 
 /******************Om mig  SLUT***************/
 
@@ -269,8 +288,6 @@ footer p {
     text-decoration: none;
     margin-left: 10vw;
 }
-
-
 
 /************Footer SLUT**********/
 
