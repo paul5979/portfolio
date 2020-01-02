@@ -365,7 +365,20 @@ header nav a {
 /******************UX START******************/
 
 
+.sectionwrapper {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #404040;
 
+    padding: 0 0.8rem 0.8rem;
+    margin: 0.8rem;
+
+}
+
+.col {
+    flex-grow: 1;
+    flex-basis: 500px;
+}
 
 
 
