@@ -6,7 +6,9 @@
 
 body {
     margin: 0;
+    background-color: #404040;
 }
+
 
 
 img {
@@ -256,8 +258,16 @@ header nav a {
     color: #DADADA;
     text-transform: inherit;
     line-height: 1.7;
+
 }
 
+
+#ommig h1 {
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 3.5rem;
+    color: #DADADA;
+    text-transform: uppercase;
+}
 
 #ommig .col h2 {
     font-family: 'Josefin Sans', sans-serif;
@@ -270,12 +280,13 @@ header nav a {
 
 
 /******************Web START******************/
+
 #web .sectionwrapper {
     display: flex;
     flex-wrap: wrap;
+    background-color: #404040;
 
-    padding: 0 0.8rem 0.8rem;
-    margin: 0.8rem;
+
 
 }
 
