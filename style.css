@@ -240,62 +240,6 @@ header nav a {
 
 }
 
-
-
-/*
-#web .col_wide {
-    display: flex;
-    flex-direction: column;
-
-    flex-grow: 1;
-    flex-basis: 600px;
-    padding: 1rem;
-}
-
-#web .top {
-    display: flex;
-    flex-wrap: wrap-reverse;
-    flex-direction: row-reverse;
-    padding: 1rem;
-}
-
-#web .top .txt {
-    flex-grow: 1;
-    flex-basis: 200px;
-}
-
-#web .top .image {
-    flex-grow: 1;
-    flex-basis: 300px;
-
-}
-
-#web .bottom {
-    display: flex;
-    flex-wrap: wrap-reverse;
-    flex-direction: row;
-
-}
-
-
-#web .bottom .txt {
-    flex-grow: 1;
-    flex-basis: 200px;
-}
-
-#web .bottom .image {
-    flex-grow: 1;
-    flex-basis: 300px;
-
-    width: 50vw;
-    height: 50vh;
-
-}
-*/
-
-
-
-
 /******************Web SLUT******************/
 
 
