@@ -36,7 +36,7 @@ img {
 
 h1 {
     font-family: 'Josefin Sans', sans-serif;
-    font-size: 3.5rem;
+    font-size: 4rem;
     color: black;
     text-transform: uppercase;
     margin-left: 0.5vw;
@@ -46,7 +46,7 @@ h1 {
 
 h2 {
     font-family: 'Josefin Sans', sans-serif;
-    font-size: 1.5rem;
+    font-size: 2rem;
     color: black;
     text-transform: uppercase;
 }
@@ -94,62 +94,6 @@ nav a {
     text-decoration: none;
     margin: 0;
 
-}
-
-.dropdown {
-    float: right;
-    overflow: hidden;
-    padding: 0.5vw;
-}
-
-.dropdown .drop_button {
-    font-size: 2vw;
-    font-family: sans-serif;
-    border: none;
-    outline: none;
-    color: white;
-    padding: 1vw;
-    background-color: inherit;
-    font-family: inherit;
-    margin: 0;
-}
-
-.dropdown:hover .drop_button {
-    background-color: white;
-    color: white;
-
-
-}
-
-
-.dropdown_content {
-    display: none;
-    position: absolute;
-    right: 0vw;
-    top: 4.2vw;
-    background-color: #BEBEBE;
-    width: 25vw;
-    z-index: 1;
-}
-
-.dropdown_content a {
-    float: none;
-    font-size: 1rem;
-    color: #3e362f;
-    padding: 1vw 1.2vw;
-    text-decoration: none;
-    display: block;
-    text-align: left;
-    font-family: 'Josefin Sans', sans-serif;
-    text-transform: white;
-}
-
-.dropdown_content a:hover {
-    color: white;
-}
-
-.dropdown:hover .dropdown_content {
-    display: block;
 }
 
 
