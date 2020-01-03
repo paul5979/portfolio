@@ -30,17 +30,6 @@ img {
 }
 
 
-/* fælles designregler for alle sektioner */
-
-section {
-    padding: 1rem;
-    max-width: 1200px;
-    margin: 0 auto;
-    /*sætter det i midten*/
-}
-
-/* ****fælles designregler for alle sektioner SLUT**** */
-
 
 
 /*********Fonts style********/
@@ -50,8 +39,8 @@ h1 {
     font-size: 3.5rem;
     color: black;
     text-transform: uppercase;
-    margin: 0.8rem;
-    padding: 0 0.8rem 0.8rem;
+    margin-left: 0.5vw;
+    padding: 1vw;
 
 }
 
@@ -244,8 +233,8 @@ header nav a {
     flex-wrap: wrap;
     background-color: #404040;
 
-    padding: 0 0.8rem 0.8rem;
-    margin: 0.8rem;
+    padding: 1vw;
+    margin: 1.7vw;
 
 }
 
@@ -256,6 +245,10 @@ header nav a {
 
 #ommig .col img {
     margin-top: 2vw;
+    height: 60vw;
+    width: 40vw;
+    margin-left: 10vw;
+    margin-right: 1.7vw;
 }
 
 #ommig .col p {
@@ -264,16 +257,9 @@ header nav a {
     color: #DADADA;
     text-transform: inherit;
     line-height: 1.7;
-    padding-right: 2.5rem;
 
-}
+    padding-left: 1vw;
 
-
-#ommig h1 {
-    font-family: 'Josefin Sans', sans-serif;
-    font-size: 3.5rem;
-    color: #DADADA;
-    text-transform: uppercase;
 }
 
 #ommig .col h2 {
@@ -281,6 +267,7 @@ header nav a {
     font-size: 1.5rem;
     color: #DADADA;
     text-transform: uppercase;
+    padding-left: 1vw;
 }
 
 /******************Om mig  SLUT***************/
@@ -294,16 +281,24 @@ header nav a {
 #web .sectionwrapper {
     display: flex;
     flex-wrap: wrap;
-
-    padding: 1rem;
-    margin: 1rem;
-    background-color: #DADADA;
 }
 
-#web .txt {
-    padding-left: 2.5vw;
+
+#web .col {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    flex-grow: 2;
+    padding: 3vw;
+    margin: 6vw;
+    background-color: #D9D0C5;
+    margin-top: 1vw;
+
 }
 
+
+
+/*
 #web .col_wide {
     display: flex;
     flex-direction: column;
@@ -352,6 +347,7 @@ header nav a {
     height: 50vh;
 
 }
+*/
 
 
 
@@ -367,10 +363,7 @@ header nav a {
 .sectionwrapper {
     display: flex;
     flex-wrap: wrap;
-    background-color: #404040;
 
-    padding: 0 0.8rem 0.8rem;
-    margin: 0.8rem;
 
 }
 
@@ -393,7 +386,7 @@ header nav a {
     margin-left: 12vw;
 }
 
-#ux .col p {
+/*#ux .col p {
     font-family: 'Libre Baskerville', serif;
     font-size: 1rem;
     color: #DADADA;
@@ -404,12 +397,7 @@ header nav a {
 }
 
 
-#ux h1 {
-    font-family: 'Josefin Sans', sans-serif;
-    font-size: 3.5rem;
-    color: black;
-    text-transform: uppercase;
-}
+
 
 #ux .col h2 {
     font-family: 'Josefin Sans', sans-serif;
@@ -452,7 +440,7 @@ header nav a {
     line-height: 1.7;
     padding-right: 2.5rem;
 
-}
+}*/
 
 
 
